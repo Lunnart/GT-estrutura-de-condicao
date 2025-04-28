@@ -9,8 +9,9 @@
 
 alert('Crie uma lista de tarefas')
 
-const tarefa = Number(prompt('digite uma tarefa')) 
- 
-const tarefa['1','2','3','4','5','6'...]
+const tarefa = []
 
-tarefa.push('Digite uma atividade')
+const novaTarefa = prompt('digite uma tarefa')
+
+
+tarefa.push(novaTarefa)
