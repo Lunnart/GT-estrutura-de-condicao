@@ -3,7 +3,7 @@
 // const numero = Number(prompt('Digite um número'))  Estou atribuindo um valor para a constante número.
 // Ex:
 //  const numero = Number(prompt('Digite um número')) ´diz-se: a constante número recebe "=" o valor do prompt e o transforma em número.
-
+// É importante que esteja com o "const numero" antes para que ele continue mostrando a mensagem depois do usuário ter inserido o seus dados.
 // Bom-dia
 
 const turno = prompt('Digite manhã, tarde ou noite')
@@ -22,18 +22,18 @@ const turno = prompt('Digite manhã, tarde ou noite').toLowerCase()
 
 const opcao = prompt('Digite 1 para ver perfil, 2 para editar e 3 para sair')
 
-
+// Uma forma das formas de solução é o método swich:
 switch (opcao) {
     case'1':
         alert('Você escolheu ver perfil') //bloco de construção
-        break
+        break //Se for a opção correta o JS para a leitura aqui. Se não ele vai pro "case'2'"
     case'2':
         alert('Você escolheu editar perfil') //bloco de construção
         break
     case'3':
         alert('Você escolheu sair') //bloco de construção
         break
-    default:
+    default: //Se nenhuma delas forem aceitas, então partiu "default"
         alert('Escolha uma opção válida')
     
 }
