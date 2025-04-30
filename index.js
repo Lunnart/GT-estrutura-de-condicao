@@ -1,3 +1,17 @@
+const numero = Number(prompt('Digite um número'))
+
+if (numero % 2 ===0) {   //"Se o resto da divisão por 2 for igual, tanto em valor quanto em "Tipo" = 0);
+    alert('É par')       // a resposta do quadradinho será: É par.
+} else {                 //Se não
+    alert('É ímpar')     // a resposta do quadradinho será: É ímpar.
+}
+
+// const numero = Number(prompt('Digite um número'))
+
+//numero % 2 === 0 ? alert('É par') : alert('É ímpar')      //";" = se não;
+
+
+
 // prompt('Digite um número') caixinha de mensagem que vai sair na tela para o usuário, sempre entre "aspas"
 // Number(prompt('Digite um número')) o Number vai transformar o prompt em número
 // const numero = Number(prompt('Digite um número'))  Estou atribuindo um valor para a constante número.
